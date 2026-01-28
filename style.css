@@ -1,0 +1,14 @@
+body {
+    background-color: pink;
+}
+h1 {
+    background-color: darkseagreen;
+    color: azure;
+}
+h3 {
+    font-weight: bold;
+}
+button {
+    background-color: green;
+    color: white;
+}

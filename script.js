@@ -759,6 +759,26 @@ console.log(validObj)
 console.log(strObj)
 
 
+// destructuring!!
+const book1 ={
+    title : "hp",
+    authorName : "nono",
+    price: 200
+}
+console.log(book1.title);      // this is the normal way to access the values!
+console.log(book1.authorName);
+console.log(book1.price);
+
+const {title,price} = book1;        // this is how we do desturcturing!
+console.log(title,price); 
+
+
+const scores = [10,30,50,60];
+const [a,b,c,d] = scores;
+console.log(a,b,c,d);
+
+
+
 
 // ADVANCED JAVASCRIPT ---
 

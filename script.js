@@ -745,7 +745,19 @@ lexus.setBrand("lexus");
 
 // Construtor() --- special method in Js inside classes!!
 //if we don't create  constructor  it will be automatically get createdd!!
- 
+
+
+ // JSON -- format to store data!
+object = ["hello" , 1 ,5]
+const strObj = JSON.stringify(object)
+console.log(typeof strObj);
+const result = strObj;
+
+const validObj = JSON.parse(result);
+console.log(typeof validObj);
+console.log(validObj)
+console.log(strObj)
+
 
 
 // ADVANCED JAVASCRIPT ---
